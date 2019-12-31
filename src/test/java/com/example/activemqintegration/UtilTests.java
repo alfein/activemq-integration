@@ -8,7 +8,7 @@ import java.util.Map;
 
 public class UtilTests {
 	@Test
-	void shouldParseJsonString() throws IOException {
+	public void shouldParseJsonString() throws IOException {
 		ObjectMapper mapper = new ObjectMapper();
 
 		String jsonString = "{\"name\":\"value\"}";
